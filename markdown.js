@@ -7,11 +7,6 @@
  	License: 			MIT 3.0
 
 
-	To fix: 			numbred lists, 
-						check headers - first in line, 
-						blockquote, 
-						tabs size
-						trigger on start/finish
 */
 
 
@@ -59,7 +54,7 @@ if (typeof Object.create !== 'function') {
 
 		//Main
 		main: function( element) {
-			var start = new Date().getTime();
+			if (options.console_print) 				var start = new Date().getTime();
 
 			//console.log(index);
 			//console.log(escape(result));
@@ -82,7 +77,7 @@ if (typeof Object.create !== 'function') {
 			//$(".markdown2").html(result); //
 			self.$element.html(result);
 
-			console.log(new Date().getTime() - start);
+			if (options.console_print) 				console.log(new Date().getTime() - start);
 
 		},
 
@@ -456,7 +451,8 @@ if (typeof Object.create !== 'function') {
 		live_preview: 					false,								//Whether to check the text on every key up
 		display_syntax: 				false,								//Whether to display the markdown-syntax or not
 		replace_line_breaks: 			true,								//Whether to replace line breaks (\n) with a br-tag or not
-		replace_tabs: 					true								//Whether to replace tabs (\t) with a wrapping of the dd-tag or not
+		replace_tabs: 					true,								//Whether to replace tabs (\t) with a wrapping of the dd-tag or not
+		console_print:					false								//Whether to print out time taken or not in console
 
 	};
 
