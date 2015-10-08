@@ -256,7 +256,7 @@ if (typeof Object.create !== 'function') {
 			//Ordered list
 			if (options.list_ol){
 				var list = result.match(/[^\n][1-9](\.)(.*)/g);
-				console.log(list);
+				//console.log(list);
 				if(list !== null) {
 					for (i = 0; list.length > i; i++) {
 						result = result.replace(list[i], 
@@ -358,7 +358,7 @@ if (typeof Object.create !== 'function') {
 		blockquote: function() {
 
 			var blockquote = escape(result).match(/^>[ ](.*)/gm);
-			console.log(blockquote);
+			//console.log(blockquote);
 			if(blockquote !== null) {
 				for (i = 0; blockquote.length > i; i++) {
 					result = result.replace(blockquote[i], 
