@@ -1,5 +1,19 @@
 ## markdown.js
-I couldn't find a very good client side markdown-to-html converter so I decided to make one on my own using JavaScript, jQuery and Regular Expressions. Check out the ```index.html``` file for a demonstration of the functionallity of the script.
+I couldn't find a very good client side markdown-to-html converter so I decided to make one on my own using JavaScript, jQuery and Regular Expressions. I have tried my best to not introduce my own flavor (or use GitHubs flavor) and keep to [the original ruleset](https://daringfireball.net/projects/markdown/). Check out the ```index.html``` file for a demonstration of the functionallity of the script.
+
+
+###Functionality
+*Most* of the baisc Markdown features are working:
+
+- Headers (6 levels)
+- Bold text
+- Italic text
+- Strikethrough text
+- Unordered lists
+- Dividers
+- Inline HTML
+- Linebreaks
+
 
 ###Usage
 Add the files ```markdown.js``` and ```jquery.js``` (if you don't already have it) to your project folder and add the following to your html file (before you initialize):
@@ -21,7 +35,9 @@ To initialize, simply add the following:
 ```
 The script will than take all the take everything in the selected div (your div containing the markdown) and replace it with properly structured html.
 
+
 ####Options
+Since one of my many goals was to keep the script flexible I added a lot of options. Below is a list of all of them, including thier defaults (sorry for side-scroll):
 
 ```//Header
 		header: 						true,								//Whether to use headers or not
@@ -91,17 +107,17 @@ The script will than take all the take everything in the selected div (your div 
 		console_print:					true								//Whether to print out time taken or not in console
 ```
 
-### Disclaimer
-My solution is definently not the best, but it will get the job done.
-
 
 ###To-do list
-- Numbred lists 
+- Ordered lists 
+- Multiple levels in lists
+- Links
 - Check headers - first in line 
 - Blockquote 
 - Tabs size
 - Trigger on start/finish
 - Fix bug where text that contains "-" get turned into a list item (such as "time-travel")
+
 
 ### About this project
 This project is created by, and currently only maintained by, [Arvid Bräne](http://arvidbrane.com).
