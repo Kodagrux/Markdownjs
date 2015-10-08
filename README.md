@@ -1,7 +1,7 @@
 ## Markdown.js
 I couldn't find a very good client side markdown-to-html converter so I decided to make one on my own using JavaScript, jQuery and Regular Expressions. I have tried my best to not introduce my own flavor (or use GitHubs flavor) and keep to [the original ruleset](https://daringfireball.net/projects/markdown/). Check out the ```index.html``` file for a demonstration of the functionallity of the script.
 
-![](https://github.com/Kodagrux/URL-Shortener/blob/master/printscreen.png)
+![](https://github.com/Kodagrux/markdownjs/blob/master/printscreen.png)
 
 
 ###Functionality
