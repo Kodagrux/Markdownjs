@@ -3,16 +3,22 @@ I couldn't find a very good client side markdown-to-html converter so I decided 
 
 
 ###Functionality
-*Most* of the baisc Markdown features are working:
+*Most* of the baisc Markdown-features are working:
 
 - Headers (6 levels)
 - Bold text
 - Italic text
 - Strikethrough text
 - Unordered lists
-- Dividers
+- Dividers (thick and thin)
 - Inline HTML
 - Linebreaks
+- Code
+
+Some other key features of my script are:
+
+- The ability to switch from using default html tags (such as h1, h2, h3 for headers) to spantags with custom classes.
+- Two types of dividers, thin (---) and thick (===).
 
 
 ###Usage
@@ -35,6 +41,13 @@ To initialize, simply add the following:
 ```
 The script will than take all the take everything in the selected div (your div containing the markdown) and replace it with properly structured html.
 
+####Styling
+If you want to use custom span-tags instead of the normal html-tags you might want to include the defualt styling ```markdown_barebone.css``` and optionally (but less likely) the ```markdown_stylesheet.css``` with the following lines:
+
+```
+<link rel="stylesheet" href="markdown_barebone.css">
+<link rel="stylesheet" href="markdown_stylesheet.css">
+```
 
 ####Options
 Since one of my many goals was to keep the script flexible I added a lot of options. Below is a list of all of them, including thier defaults (sorry for side-scroll):
