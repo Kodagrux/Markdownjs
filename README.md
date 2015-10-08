@@ -1,6 +1,8 @@
 ## Markdown.js
 I couldn't find a very good client side markdown-to-html converter so I decided to make one on my own using JavaScript, jQuery and Regular Expressions. I have tried my best to not introduce my own flavor (or use GitHubs flavor) and keep to [the original ruleset](https://daringfireball.net/projects/markdown/). Check out the ```index.html``` file for a demonstration of the functionallity of the script.
 
+![](https://github.com/Kodagrux/URL-Shortener/blob/master/printscreen.ong)
+
 
 ###Functionality
 *Most* of the baisc Markdown-features are working:
@@ -21,6 +23,7 @@ Some other key features of my script are:
 - Two types of dividers, thin (---) and thick (===).
 - Relativly fast, the demo-file only takes about 10 ms on a 5 year old MacBook Pro.
 - Relativly small, only 6 Kb.
+- Allows some *serious* nesting 
 
 
 ###Usage
