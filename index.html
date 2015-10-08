@@ -14,10 +14,10 @@
 
 		<div class="markdown" id="test">
 
-#Header 1 with divider
+#Header 1 with thick divider
 ===
 
-##Header 2 with divider
+##Header 2 with thin divider
 ---	
 
 ###Header 3
@@ -53,7 +53,8 @@ Normal text that is than followed by a ###Header 3
 
 #### Conversion in a paragraph
 Morbi leo risus, porta ac consectetur ac, vestibulum at eros. **Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis *interdum*. Curabitur** blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum. Curabitur blandit 
-**tempus porttitor.**
+	**Tabbed in bold text**
+
 </div>
 
 
@@ -68,7 +69,8 @@ Morbi leo risus, porta ac consectetur ac, vestibulum at eros. **Morbi leo risus,
 			$(".markdown").markdown({
 				display_syntax: false, 
 				wrap_pre: false, 
-				divider_html: true
+				divider_html: true,
+				console_print: true
 			});
 		</script>
 
