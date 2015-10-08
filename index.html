@@ -1,0 +1,115 @@
+<html>
+	<head>
+		<title>Markdown.js</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="markdown_barebone.css">
+		<link rel="stylesheet" href="markdown_stylesheet.css">
+	</head>
+	<body>
+
+	<div onClick="this.contentEditable='true';" style="background-color: green; height: 200px; width: 200px; display: none;">
+		
+	</div>
+
+		<div class="markdown" id="test">
+
+#Header
+===
+
+##Header
+---	
+
+###Header
+
+####Header
+
+#####Header
+
+######Header
+
+
+#Hello
+
+	hej
+
+##Hello2ää
+
+**bold**
+
+##hejo **hej**
+
+**bold text**
+
+
+##lista
+- nummer 1 **bold text**
+- nummer 2 *italic*
+- nummer 3
+
+<div>-#***hej å hå din jävel***</div>
+
+*italic*
+
+#***hej***
+
+
+#Här kommer lite info för helgen:
+1. sdadasd d a dsasd a
+2. sasdasdsadasd
+3. sdada dsf gf df fd d f  dfg
+
+
+##Kläder:
+- hej
+- hej
+
+
+hej hej hej ##hej hej
+
+
+##Annat skit:
+text, mer text, **viktig text**
+
+ha så <del>bra</del>
+*arvid*
+
+> hej
+
+#hej1
+===
+
+
+##hej2
+---
+
+
+~~hej hej~~
+
+```hej jag heter arvid```
+
+###hej
+
+
+Morbi leo risus, porta ac consectetur ac, vestibulum at eros. **Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis *interdum*. Curabitur** blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum. Curabitur blandit 
+**tempus porttitor.**
+</div>
+
+
+
+		<div class="markdown2" id="test2">
+
+		</div>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="markdown.js"></script>
+		<script>
+		//%3E%0A%3C
+			$(".markdown").markdown({
+				display_syntax: false, 
+				wrap_pre: false, 
+				divider_html: true
+			});
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,110 @@
+pre.markdown_pre {
+	white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+	white-space: -pre-wrap; /* Opera 4 - 6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
+	word-wrap: break-word; /* IE 5.5+ */
+	white-space: -khtml-pre-wrap; /* Safari, not working --  maybe on Konqueror khtml */
+	font-family: inherit;
+	color : #000000;
+	//width: 99%;
+	//font-size: 14px;
+}
+
+p.markdown_p {
+
+}
+
+span.markdown_tab {
+	text-indent: 5em;
+}
+
+span.markdown_header {
+	font-weight: bolder;
+}
+
+span.markdown_h1 {
+	font-size: 260%;
+	opacity: 0.9;
+}
+
+span.markdown_h2 {
+	font-size: 220%;
+	opacity: 0.85;
+}
+
+span.markdown_h3 {
+	font-size: 190%;
+	opacity: 0.8;
+}
+
+span.markdown_h4 {
+	font-size: 165%;
+	opacity: 0.75;
+}
+
+span.markdown_h5 {
+	font-size: 140%;
+	opacity: 0.7;
+}
+
+span.markdown_h6 {
+	font-size: 120%;
+	opacity: 0.65;
+}
+
+span.markdown_bold {
+	font-weight: bold;
+}
+
+span.markdown_italic {
+	font-style: italic;
+}
+
+.markdown_list {
+
+}
+
+ul.markdown_ul, ol.markdown_ol {
+	//list-style: none;
+	margin: 0;
+}
+
+li.markdown_li {
+	margin-top: 5px;
+}
+
+li.markdown_minus {
+	
+}
+
+li.markdown_plus {
+	
+}
+
+div.markdown_divider {
+	width: 100%;
+	background-color: #888;
+	height: 1px;
+	margin-top: 7px;
+}
+
+div.markdown_divider_thin {
+	opacity: 0.5;
+}
+
+div.markdown_divider_thick {
+	
+}
+
+span.markdown_strikethrough {
+	text-decoration: line-through;
+}
+
+span.markdown_code {
+	font-family: monospace;
+}
+
+span.markdown_blockquote {
+
+}
