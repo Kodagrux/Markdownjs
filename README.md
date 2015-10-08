@@ -1,4 +1,4 @@
-## markdown.js
+## Markdown.js
 I couldn't find a very good client side markdown-to-html converter so I decided to make one on my own using JavaScript, jQuery and Regular Expressions. I have tried my best to not introduce my own flavor (or use GitHubs flavor) and keep to [the original ruleset](https://daringfireball.net/projects/markdown/). Check out the ```index.html``` file for a demonstration of the functionallity of the script.
 
 
@@ -19,6 +19,8 @@ Some other key features of my script are:
 
 - The ability to switch from using default html tags (such as h1, h2, h3 for headers) to spantags with custom classes.
 - Two types of dividers, thin (---) and thick (===).
+- Relativly fast, the demo-file only takes about 10 ms on a 5 year old MacBook Pro.
+- Relativly small, only 6 Kb.
 
 
 ###Usage
@@ -133,4 +135,4 @@ Since one of my many goals was to keep the script flexible I added a lot of opti
 
 
 ### About this project
-This project is created by, and currently only maintained by, [Arvid Bräne](http://arvidbrane.com).
+This project is created by, and currently only maintained by, [Arvid Bräne](http://arvidbrane.com). [MIT license](https://github.com/Kodagrux/URL-Shortener/blob/master/LICENSE.txt).  
